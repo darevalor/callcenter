@@ -1,13 +1,15 @@
-package com.almundo.callcenter.callcenter;
+package com.almundo.callcenter;
 
+import com.almundo.callcenter.dispatcher.Dispatcher;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class CallcenterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CallcenterApplication.class, args);
+		Dispatcher dispatcher = new Dispatcher();
+
+		dispatcher.dispatchCall();
 	}
 
 }

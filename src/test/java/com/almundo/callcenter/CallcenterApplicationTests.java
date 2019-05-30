@@ -1,4 +1,4 @@
-package com.almundo.callcenter.callcenter;
+package com.almundo.callcenter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
